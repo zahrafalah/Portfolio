@@ -1,0 +1,16 @@
+// Mixins
+// Bootstrap Button Variant
+
+@mixin background-cover {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+@mixin body-font {
+  font-family: 'initial';
+  font-size: 1.2rem
+}
+@mixin heading-font {
+  font-family: 'initial';
+}
